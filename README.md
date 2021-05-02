@@ -88,6 +88,6 @@ Usecase(Acceptance Critieria)에서 시작해야 한다. 보통은 백엔드 개
 
 
 ## Links
-[StandUp Meeting](https://martinfowler.com/articles/itsNotJustStandingUp.html)
-[programming methods](https://medium.com/@filzahafidzahf5/sdlc-waterfall-agile-extreme-programming-methods-88eda4de6858)
-[XP advantage](https://www.altexsoft.com/blog/business/extreme-programming-values-principles-and-practices/)
+- [StandUp Meeting](https://martinfowler.com/articles/itsNotJustStandingUp.html)
+- [programming methods](https://medium.com/@filzahafidzahf5/sdlc-waterfall-agile-extreme-programming-methods-88eda4de6858)
+- [XP advantage](https://www.altexsoft.com/blog/business/extreme-programming-values-principles-and-practices/)
