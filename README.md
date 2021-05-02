@@ -46,6 +46,20 @@ Usecase(Acceptance Critieria)에서 시작해야 한다. 보통은 백엔드 개
 
 (1) 작은 단위로의 리팩토링이 끊임없이 이루어져야 => 구조적인 리팩토링으로 이어 질 수 있다.
 
+
+---
+## 품질
+
+- 외부 품질
+시스템이 고개과 사용자의 요구를 얼마나 충족하는가이다.(기능, 신뢰성, 가용성, 응답성 등) <br/>
+전 구간 테스트(End-2-End Test)를 통하여 확인 가능하다. 
+
+
+- 내부 품질
+내부품질은 거듭되고 예상할 수 없는 변경에 대처하게 하는 것으로 동작방식을 안전하고 예상 가능한 상태로 바꾸는 것이다. <br/>
+단위 테스트가 있다면 코드 품질을 확인가능하다.
+
+
 ## Links
 [StandUp Meeting](https://martinfowler.com/articles/itsNotJustStandingUp.html)
 [programming methods](https://medium.com/@filzahafidzahf5/sdlc-waterfall-agile-extreme-programming-methods-88eda4de6858)
