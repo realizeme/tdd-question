@@ -25,3 +25,6 @@
 `피드백`은 가장 기본적인 도구이다.
 > 배포하지 않고는 피드백이 완전해지지 않는다. 피드백을 통하여 배우고 이를 개선해 가야 한다.
 
+
+## Links
+[StandUp Meeting](https://martinfowler.com/articles/itsNotJustStandingUp.html)
