@@ -65,6 +65,7 @@ Usecase(Acceptance Critieria)에서 시작해야 한다. 보통은 백엔드 개
 ## 객체 설계
 객체 설계 시 유의하면 좋을 점을 확인하기 위하여 객체가 어떤 것인지 디자인 관계에서 살펴보자.
 
+
 ### 설계
 고수준의 선언적 접근법을 사용해서 How가 아니라 What에 집중 할 수 있도록 한다. <br/>
 이를 위하여 추상 클래스를 적극 활용한다. `도메인 모델`이 바로 이런 객체 간의 의사소통 관계를 의미한다.
@@ -85,7 +86,24 @@ Usecase(Acceptance Critieria)에서 시작해야 한다. 보통은 백엔드 개
 - 결합도: 한 변경이 다른 변경을 강제한다면, 요소들이 결합된 상태이다. e.g) 공통부모를 상속받은 경우 자녀들 하나를 변경하면 다른 하나를 더 변경해야 할 수 있다.
 - 응집도: 비슷한 기능끼리 묶어두는 것 
 
+### 묻지말고 답하라
 
+`전복열차` 혹은 `디미터 법칙`을 생각하라.
+
+- BAD
+```
+if (carriage.getSeats().getPercentReserved() < percentageBarrier) {
+...
+}
+```
+
+- GOOD
+```
+if ( carriage.hasSeatAvailableWithic(percentageBarrier) ) {
+...
+}
+
+```
 
 ## Links
 - [StandUp Meeting](https://martinfowler.com/articles/itsNotJustStandingUp.html)
