@@ -66,6 +66,10 @@ Usecase(Acceptance Critieria)에서 시작해야 한다. 보통은 백엔드 개
 응집도: 비슷한 기능끼리 묶어두는 것 
 ```
 
+## 값과 객체
+- 값: 변하지 않거ㅏ나 양이나 크기를 나타낸다.
+- 객체: 시간이 지남에 따라 상태가 변할지 모르지만 식별자가 있는 계산 절차를 나타낸다.
+
 
 ## Links
 [StandUp Meeting](https://martinfowler.com/articles/itsNotJustStandingUp.html)
