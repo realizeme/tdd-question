@@ -28,3 +28,5 @@
 
 ## Links
 [StandUp Meeting](https://martinfowler.com/articles/itsNotJustStandingUp.html)
+[programming methods](https://medium.com/@filzahafidzahf5/sdlc-waterfall-agile-extreme-programming-methods-88eda4de6858)
+[XP advantage](https://www.altexsoft.com/blog/business/extreme-programming-values-principles-and-practices/)
