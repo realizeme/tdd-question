@@ -129,6 +129,30 @@ if ( carriage.hasSeatAvailableWithic(percentageBarrier) ) {
 
 ```
 
+## 객체 품질 검사
+
+### 프로토콜에 집중
+`프로토콜`이란? 두 컴포넌트가 함께 목적을 이루기 위한 동작을 기술함
+
+> TDD에서 동위요소(peer)간의 의존성, 알림, 조정(전략 패턴)을 사용하여 목 생성하여 가능함.
+> - 의존성: 자신의 역할을 수행할 수 있도록 이웃하는 객체에게 요구하는 서비스
+> - 알림: 중요한 활동을 할 때마다, 특정 이웃에게 이러한 사실을 알린다.
+> - 조정: 객체의 행위를 넓은 시스템 요건에 맞게 조정 => 해당 객체를 대신에 의사결정을 내림
+
+### 값
+값 객체를 활용하여 품질을 높일 수 있다. 값 객체 생성 원인은 아래와 같은 것이 있다.
+> - 분해: 코드가 복잡해질 경우 행위 단위로 분리 eg) 구문분석과 해석으로 분리하여 추출
+> - 파생: 새로운 도메인 개념
+> - 포장: 일련의 값들이 늘 함께 사용된다면 분리
+
+### 객체
+객체는 내부 품질을 유지하는데 필수적인 부분이다.
+
+> - 분해: 큰 객체는 협력 객체로 그룹으로 분리하라.
+> - 파생: 신규 서비스 정의와 해당 서비스를 제공하기 위한 객체
+> - 포장: 관련 객체를 포함 객체로 감추기(전체는 부분의 합보다 단순해야 함)
+
+
 ## Links
 - [StandUp Meeting](https://martinfowler.com/articles/itsNotJustStandingUp.html)
 - [programming methods](https://medium.com/@filzahafidzahf5/sdlc-waterfall-agile-extreme-programming-methods-88eda4de6858)
